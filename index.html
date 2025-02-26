@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POF Hockey Academy</title>
+    <!-- Adding Fontawesome Icons -->
+    <script src="https://kit.fontawesome.com/3f16fb12e4.js" crossorigin="anonymous"></script>
+    <!-- Adding Stylesheet  -->
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        /* CSS to resize the logo */
+        .logo img {
+            width: 150px;  /* Adjust this value as needed */
+            height: auto;
+        }
+
+        footer img {
+            width: 100px;  /* Adjust this value for footer logo */
+            height: auto;
+        }
+
+        /* Add background image to body */
+        body {
+            background-image: url('images/main/background.jpg');  /* Replace with your image path */
+            background-size: cover;  /* Ensures the image covers the whole body */
+            background-position: center;  /* Centers the background image */
+            color: rgb(31, 30, 30);  /* Dark text for better contrast */
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Optionally, you can add a semi-transparent overlay on top of the background image */
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 254, 254, 0.4);  /* Semi-transparent black overlay */
+            z-index: -1;  /* Makes sure the overlay is behind the content */
+        }
+
+        /* Main content styles */
+        main {
+            background-color: rgba(240, 227, 227, 0.8);  /* Slightly transparent white background */
+            padding: 20px;
+        }
+
+        /* Players and Coaches Section Styles */
+        #players-coaches {
+            background-color: rgba(255, 255, 255, 0.9);  /* White background with slight transparency */
+            padding: 30px;
+            margin-top: 30px;
+            border-radius: 10px;
+        }
+
+        .player-coach {
+            margin-bottom: 10px;
+        }
+
+        .player-coach h4 {
+            font-size: 18px;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        .player-coach p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .player-coach ul {
+            list-style-type: none;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Optional overlay (semi-transparent layer over background image) -->
+    <div class="overlay"></div>
+
+    <!-- Top Heading Part Starts-->
+    <header>
+        <section class="top-header">
+            <!-- Top Navigation Starts -->
+            <nav>
+                <div class="logo">
+                    <!-- Replace with your POF Hockey Academy logo image -->
+                    <img src="images/main/Logo.png" alt="POF Hockey acadmy">
+                </div>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#trending">Trending</a>
+                    <a href="#clubs">Clubs</a>
+                </div>
+                <span>
+                    <a class="link-button" href=""><i class="fas fa-sign-in-alt"></i> Login</a>
+                </span>
+            </nav>
+            <!-- Top Navigation Ends -->
+            <div class="top-banner">
+                <div class="top-banner-text">
+                    <h1>Welcome to POF Hockey Academy</h1>
+                    <p>Training the next generation of hockey champions</p>
+                </div>
+                <div class="top-banner-image">
+                    <img src="images/main/banner.png" alt="Hockey Action">
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- Top Heading Part Ends-->
+    
+    <main>
+        <!-- About Section Starts -->
+        <section id="about" class="about">
+            <div class="about-header">
+                <h2>About POF Hockey Academy</h2>
+                <p>POF Hockey Academy is dedicated to training and nurturing hockey players to reach their highest potential. Our academy offers world-class training and facilities to athletes of all skill levels, with a focus on teamwork, discipline, and excellence.</p>
+            </div>
+            <div class="about-content">
+                <h3>Our Mission</h3>
+                <p>Our mission is to provide top-tier hockey training to individuals who aspire to be professional athletes. We aim to build not only hockey skills but also essential life skills such as teamwork, leadership, and perseverance.</p>
+
+                <h3>What We Offer</h3>
+                <ul>
+                    <li>Personalized training programs</li>
+                    <li>Advanced fitness regimes</li>
+                    <li>Skill development workshops</li>
+                    <li>Team building activities</li>
+                    <li>Professional coaching staff</li>
+                </ul>
+            </div>
+        </section>
+        <!-- About Section Ends -->
+
+        <!-- Clubs Section Starts -->
+        <section id="clubs">
+            <div class="clubs-header">
+                <h2>Clubs</h2>
+                <p>Our academy is proud to collaborate with various hockey clubs, fostering an environment where players can grow and compete at the highest level.</p>
+            </div>
+            <div class="clubs">
+                <div class="club">
+                    <img class="club-logo" src="images/main/Logo Green]-01.png" alt="Club Logo">
+                    <h4>ZAKIR HUSSAIN HOCKEY ACADEMY</h4>
+                </div>
+            </div>
+        </section>
+        <!-- Clubs Section Ends -->
+
+        <!-- Players and Coaches Section Starts -->
+        <section id="players-coaches">
+            <h2>Players and Coaches</h2>
+
+            <!-- Players List -->
+            <h3>Players</h3>
+            <ul>
+                <li class="player-coach"><h4>HASEEB MUSTAFA</h4><p>Goalie</p></li>
+                <li class="player-coach"><h4>MUBASHIR </h4><p>Goalie</p></li>
+                <li class="player-coach"><h4>AHMED MUSTAFA</h4><p>Defense</p></li>
+                <li class="player-coach"><h4>UMER MUSTAFA</h4><p>Forward</p></li>
+                <li class="player-coach"><h4>AWAIS ULLAH</h4><p>Center</p></li>
+                <li class="player-coach"><h4>ABDULLAH</h4><p>Goalie</p></li>
+                <li class="player-coach"><h4>AZHAR ULLAH </h4><p>Forward</p></li>
+                <li class="player-coach"><h4>MAHROZ</h4><p>Defense</p></li>
+                <li class="player-coach"><h4>USMAN MUSTAFA</h4><p>Center</p></li>
+                <li class="player-coach"><h4>SHERYAR</h4><p>Defense</p></li>
+                <li class="player-coach"><h4>MUBASHIR</h4><p>Forward</p></li>
+                <li class="player-coach"><h4>ZEESHAN </h4><p>Goalie</p></li>
+                <li class="player-coach"><h4>SIKANDAR</h4><p>Forward</p></li>
+                <li class="player-coach"><h4>USMAN SHABBIR</h4><p>Defense</p></li>
+                <li class="player-coach"><h4>HAMZA</h4><p>Center</p></li>
+                <li class="player-coach"><h4>SHAN ALI</h4><p>Goalie</p></li>
+                <li class="player-coach"><h4>SAAD</h4><p>Defense</p></li>
+                <li class="player-coach"><h4>ZAIN</h4><p>Forward</p></li>
+                <li class="player-coach"><h4>SHAZAIB</h4><p>Center</p></li>
+                <li class="player-coach"><h4>USAMA</h4><p>Goalie</p></li>
+                <li class="player-coach"><h4>WAJAHAT</h4><p>Defense</p></li>
+                <li class="player-coach"><h4>FAHAD</h4><p>Forward</p></li>
+                <li class="player-coach"><h4>USMAN KHAN </h4><p>Forward</p></li>
+                <li class="player-coach"><h4>DAUD KHAN </h4><p>DEFENCE</p></li>
+                <li class="player-coach"><h4>USMAN CHANGAIZ</h4><p>Defense</p></li>
+                <li class="player-coach"><h4>WAHAB BUTT</h4><p>Forward</p></li>
+                
+            </ul>
+
+            <!-- Coaches List -->
+            <h3>Coaches</h3>
+            <ul>
+                <li class="player-coach"><h4>ORANGZEB JALAL KHAN </h4><p>Head Coach</p></li>
+                <li class="player-coach"><h4>G.MUSTAFA</h4><p>Assistant Coach</p></li>
+                <li class="player-coach"><h4>NAVEED YOUSAF</h4><p>Defense Coach</p></li>
+                <li class="player-coach"><h4>TASAWAR ABBAS</h4><p>Goalie Coach</p></li>
+                <li class="player-coach"><h4>SAJJAD KHAN </h4><p>Fitness Coach</p></li>
+                <li class="player-coach"><h4>GHULAM ABBAS </h4><p>Assistant Coach</p></li>
+            </ul>
+        </section>
+        <!-- Players and Coaches Section Ends -->
+    </main>
+    
+    <!-- Footer Section Starts -->
+    <footer>
+        <img src="images/main/Logo.png" alt="POF Hockey Academy Logo">
+        <div class="social-media">
+            <a target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a target="_blank" href="https://github.com/"><i class="fab fa-github"></i></a>
+            <a target="_blank" href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/signup"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>Copyright <i class="far fa-copyright"></i> 2025 POF Hockey Academy. ALL RIGHTS RESERVED @USMANMUSTAFA</p>
+    </footer>
+    <!-- Footer Section Ends -->
+</body>
+
+</html>
